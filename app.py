@@ -11,7 +11,7 @@ from flask import request
 import utils
 from constants import redis_instance
 
-openai.api_key = os.getenv("OPEN_AI_KEY")
+openai.api_key = os.getenv("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")
 
 app = Dash(
     __name__,
